@@ -25,7 +25,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -52,6 +51,53 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Общий стиль для приложения */
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #879d1c;
+
+}
+
+/* Стили для формы */
+.form {
+  margin-bottom: 20px;
+
+}
+
+.form input {
+  margin-right: 10px;
+  padding: 5px;
+  min-height: 30px;
+  min-width: 20px;
+}
+
+.form button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Стили для таблицы */
+.steps-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 20px;
+  background-color: #627214;
+}
+
+.steps-table th,
+.steps-table td {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.steps-table button {
+  margin-right: 5px;
+  cursor: pointer;
+  padding: 3px 5px;
 }
 
 @media (prefers-color-scheme: light) {
